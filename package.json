@@ -1,15 +1,30 @@
 {
   "name": "lib-fp",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "author": {
+    "email": "nilesh.suthar@acuteinformatics.in",
+    "name": "Nilesh Suthar",
+    "url": "https://nilesh-12.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilesh-12/lib-fp.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilesh-12/lib-fp/issues"
+  },
+  "homepage": "https://github.com/nilesh-12/lib-fp",
+  "version": "1.0.0",
   "type": "module",
+  "keywords": [],
   "files": [
     "dist",
     "index.d.ts"
   ],
   "main": "./dist/lib-fp.umd.cjs",
   "module": "./dist/lib-fp.js",
-  "types": "./index.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     "types": "./index.d.ts",
     "import": "./dist/lib-fp.js",
