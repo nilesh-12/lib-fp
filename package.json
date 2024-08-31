@@ -1,5 +1,5 @@
 {
-  "name": "@nstack/lib-fp",
+  "name": "nstack-lib-fp",
   "private": false,
   "author": {
     "email": "nilesh.suthar@acuteinformatics.in",
@@ -15,7 +15,7 @@
     "url": "https://github.com/nilesh-12/lib-fp/issues"
   },
   "homepage": "https://github.com/nilesh-12/lib-fp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "keywords": [],
   "files": [
@@ -23,11 +23,11 @@
     "index.d.ts"
   ],
   "main": "./dist/lib-fp.umd.cjs",
-  "module": "./dist/lib-fp.js",
+  "module": "./dist/lib-fp.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    "types": "./index.d.ts",
-    "import": "./dist/lib-fp.js",
+    "types": "./dist/index.d.ts",
+    "import": "./dist/lib-fp.es.js",
     "require": "./dist/lib-fp.umd.cjs"
   },
   "scripts": {
